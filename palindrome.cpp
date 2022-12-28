@@ -1,14 +1,13 @@
+#include<iostream>
 #include<string.h>
-#define max 50 using
-namespace std;
-class STACK
-{
+#define max 50
+using namespace std;
+class STACK {
 private:
 char a[max];
 int top;
 public:
-STACK()
-{
+STACK() {
 top=-1;
 }
 void push(char);
@@ -33,7 +32,8 @@ cout<<a[i];
 str[j]=a[i];
 }
 cout<<endl;
-}void STACK::convert(char str[])
+}
+void STACK::convert(char str[])
 {
 int j,k,len = strlen(str);
 for(j=0, k=0; j<len; j++)
@@ -77,7 +77,8 @@ cin.getline(str , 50);
 stack.convert(str);
 while(str[i] != '\0')
 {
-stack.push(str[i]);i++;
+stack.push(str[i]);
+i++;
 }
 stack.palindrome();
 stack.reverse();
