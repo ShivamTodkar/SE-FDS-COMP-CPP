@@ -1,7 +1,6 @@
-#include <iomanip>
-#include <iostream>
+#include<iomanip>
+#include<iostream>
 using namespace std;
-
 class Student
 {
 	int rollNo;
