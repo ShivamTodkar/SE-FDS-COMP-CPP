@@ -86,8 +86,7 @@ if(isempty()==0)
 for(int
 i=front;i!=rear;i=(i+1)%5)
 {
-cout<<q[i]<<"
-<- ";
+cout<<q[i]<<" <- ";
 }
 cout<<q[rear];
 }
